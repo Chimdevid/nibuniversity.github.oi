@@ -1,0 +1,111 @@
+/*font-family: "Source Serif 4", serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Source+Sans+3:wght@800&family=Source+Serif+4:ital,opsz,wght@0,8..60,700;1,8..60,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 3rem;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: "Source Serif 4", serif;
+}
+:root {
+  --main-color: #1d2594;
+  --second-color: #fcce02;
+  --third--color: #dddddd;
+}
+section {
+  padding: 50px 10%;
+}
+img {
+  width: 100%;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: ;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 153, 0);
+  box-shadow: 0 4px 41px rgb(14, 55, 14%);
+  box-shadow: 0 0 10px red;
+  padding: 15px 10%;
+  transition: 0.2s;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 70px;
+  height: 80px;
+  padding: 1 1 10px;
+}
+.navbar {
+  display: flex;
+}
+.navbar a {
+  font-size: 1.3rem;
+  justify-content: space-between;
+  font-weight: 600;
+  padding: 10px;
+  margin-left: 1rem;
+  color: black;
+  text-transform: uppercase;
+}
+#home-one {
+  color: #1d2594;
+}
+.navbar a:hover {
+  color: #1d2594;
+}
+.home {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: rgb(7, 17, 66);
+  gap: 1;
+}
+.home-text {
+  flex: 1 1 17rem;
+  color: wheat;
+  font: 3rem;
+
+  font-family: "Source Serif 4", serif;
+}
+.home-text span {
+  color: #fcce02;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.home-text h1 {
+  font-size: 2rem;
+}
+.home-text button {
+  color: #1d2594;
+  text-shadow: 0 0 10px #1d2594, 0 0 15px #1d2594;
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  background-color: #fcce02;
+  padding: 10px 25px 10px;
+  border-radius: 20px;
+  border: none;
+}
+.home-text button:hover {
+  color: #dcdcdc;
+  background: rebeccapurple;
+  transition: 0.2s;
+}
+.home-img {
+  flex: 1 1 20rem;
+  box-shadow: 0 0 10px black;
+}
+.home-img img {
+  margin-top: 65px;
+}
